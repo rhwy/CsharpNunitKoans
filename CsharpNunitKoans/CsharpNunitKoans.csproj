@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6766EA7E-EB79-40DE-9AD7-E47D655CA945}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>CsharpNunitKoans</RootNamespace>
+    <AssemblyName>CsharpNunitKoans</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="nunit.framework">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="K030_AboutStrings.cs" />
+    <Compile Include="K020_AboutVariables.cs" />
+    <Compile Include="K010_AboutAsserts.cs" />
+    <Compile Include="K080_AboutNull.cs" />
+    <Compile Include="K090_AboutMethods.cs" />
+    <Compile Include="K040_AboutArrays.cs" />
+    <Compile Include="K050_AboutControlStatements.cs" />
+    <Compile Include="K060_AboutHashes.cs" />
+    <Compile Include="K070_AboutObjects.cs" />
+    <Compile Include="Koans\_extentionMethods.cs" />
+    <Compile Include="Koans\_KoanHelper.cs" />
+    <Compile Include="K100_AboutInheritance.cs" />
+    <Compile Include="K110_AboutGenerics.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="Koans\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
