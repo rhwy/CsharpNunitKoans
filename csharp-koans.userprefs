@@ -1,0 +1,27 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CsharpNunitKoans/K010_AboutAsserts.cs">
+    <Files>
+      <File FileName="CsharpNunitKoans/K010_AboutAsserts.cs" Line="19" Column="9" />
+      <File FileName="CsharpNunitKoans/README.md" Line="4" Column="1" />
+      <File FileName="CsharpNunitKoans/K080_AboutNull.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.NUnit.TestPad">
+        <State expanded="True">
+          <Node name="CsharpNunitKoans" expanded="True">
+            <Node name="TheKoans" expanded="True">
+              <Node name="K010_AboutAsserts" expanded="True">
+                <Node name="AssertEquality" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
